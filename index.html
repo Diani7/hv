@@ -1,0 +1,222 @@
+<!DOCTYPE html> <!--La etiqueta html corresponde a la etiqueta principal y le indica al navegador el tipo de archivo-->
+<html lang="en">
+
+<head><!--esta etiqueta es el encabezado, se incluyen datos especiales que le sirven al navegador para 
+       interpretar nuestro código correctamente, esos datos no seran visibles por el usuario, 
+       pero son utiles para incluir hojas de estilo, scripts u otra información-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi CV</title> <!--Muestra el título de mi pestaña-->
+  <link rel="stylesheet" href="css/styles.css"> <!--para enlazar la página con la hoja de estilos-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body><!--En esta etiqueta si podemos escribir nuestro código, esto si sera visible para el usuario-->
+  <!--Etiquetas de títulos-->
+  <!-- <h1>Hello World</h1>  esta etiqueta varia entre h1, h2, h3, h4, h5, h6 siendo el h1 como el título principal
+  <h2>Hello World</h2>
+  <h3>Hello World</h3>-->
+  <!--Contenedor Principal-->
+  <div class="contenedor-principal">
+    <!--Información general-->
+    <div class="informacion-general">
+      <!--Descripción-->
+      <div class="descripcion">
+        <h2 class="descripcion-profesion">Software Developer</h2>
+        <h1 class="nombre">Diana Cifuentes</h1>
+        <p class="texto-descripcion">
+          Soy amante de la tecnología, la innovación y la programación, también me interesa la música y la natación.
+          Poseo habilidades para liderar, asesorar, trabajar en equipo, soy una persona responsable, dinámica,
+          curiosa, cuento con excelente manejo en relaciones públicas para el levantamiento de información,
+          aprendo con rapidez y me intereso por aprender cada día para ampliar mis conocimientos, como
+          también me intereso por cumplir de manera adecuada con la puntualidad, soy una persona honesta y
+          dedicada en las distintas actividades que realizo.
+        </p>
+      </div>
+      <!--Proyecto-->
+      <div class="proyectos">
+        <h3 class="titulo-sesion-princial">Proyectos</h3>
+        <ol class="lista-proyectos">
+          <li class="primer-elemento-lista">
+            <a class="enlace-proyectos" href="https://github.com/Diani7/hv.git"> https://github.com/Diani7/hv.git </a>
+            <span class="puntos-proyectos">........</span>
+            <span>[ HTML5, CSS3, Figma ]</span>
+          </li>
+          <li>
+            <a class="enlace-proyectos" href="https://github.com/Diani7/video-presentacion">
+              https://github.com/Diani7/video-presentacion </a>
+            <span class="puntos-proyectos">....</span>
+            <span>[ JavaScript, HTML, CSS, Figma ]</span>
+          </li>
+          <!--<li>
+            <a class="enlace-proyectos" href=""> </a>
+            <span class="puntos-proyectos">..............</span>
+            <span>[ React.js, Node.js ]</span>
+          </li>-->
+        </ol>
+      </div>
+      <!--Experiencia laboral-->
+      <div class="experiencia-laboral">
+        <h3 class="titulo-sesion-princial">Experiencia laboral.</h3>
+        <!--Experiencia 1-->
+        <div>
+          <h4 class="puesto-empresa">Ingeniera de Desarrollo Jr <span class="texto-naranja">Novasec SAS</span></h4>
+          <p class="periodo-empresa">Abr 2021 - Abr 2023 | </p>
+          <ul class="lista-experiencia">
+            <li>Diferentes desarrollos para el software de la empresa cumpliendo con la función de desarrollo full stack
+              en diferentes modulos del sistema</li>
+            <li>Pruebas funcionales al sistema para mejoras de calidad</li>
+            <li>Asesora en el proyecto de Look & Feel dentro de la misma empresa</li>
+            <li>Solución de diferentes issues reportados por el area de servicios</li>
+          </ul>
+        </div>
+        <!--Experiencia 2-->
+        <div>
+          <h4 class="puesto-empresa">Analista de sistemas <span class="texto-naranja">Finding SQA</span></h4>
+          <p class="periodo-empresa">2020 - Abril 2021 | </p>
+          <ul class="lista-experiencia">
+            <li>Líder de proyectos corresponsal bancario. </li>
+            <li>Analista nacional de ingeniería.</li>
+            <li>Realizar estimaciones de tiempos, mapa de procesos, mapa de pruebas </li>
+            <li>Participación y colaboración en la etapa de desarrollo de software. </li>
+            <li>Analizar, detallar y adoptar la visión de negocio al cual se está enfrentando para la
+              toma de decisiones y aportar a las soluciones ya sea a nivel de software o de proceso. </li>
+            <li>Identificar las fallas del producto, fundamentalmente las mas severas previo a la salida
+              del software a la etapa de producción. </li>
+            <li>Elaboración del plan de pruebas, creación, generación y ejecución de casos de pruebas, a
+              partir de las pruebas realizar registro de incidentes o errores de software. </li>
+            <li>Hacer seguimiento a los RQMs desde las reuniones de entrega del producto por parte de desarrollo,
+              pasando por la solución de bugs y la entrega al usuario final. </li>
+            <li>Documentación etapa de pruebas. </li>
+            <li>Participación en los procesos de mejora continua y elaboración de reportes, entre otras. </li>
+            <li>Elaboración de estimaciones para pruebas o requerimientos.. </li>
+            <li>Elaboración de informes de seguimientos. </li>
+            <li>Elaboración de certificados de calidad en las pruebas. </li>
+            <li>Participación en las reuniones requeridas. </li>
+            <li>Actividades propias del negocio o definidas por el líder. </li>
+          </ul>
+        </div>
+        <!--Experiencia 3-->
+        <div>
+          <h4 class="puesto-empresa">Técnico en Soporte y Desarrollo. <span class="texto-naranja">INFODEC SAS</span>
+          </h4>
+          <p class="periodo-empresa">Nov 2018 - Feb 2020 |</p>
+          <ul class="lista-experiencia">
+            <li>llamadas telefónicas del área de operaciones.</li>
+            <li>Asesorar a los clientes en las dudas funcionales de las diferentes aplicaciones de la compañía.</li>
+            <li>Desarrollar modelos de comunicación formal, asertiva, fluida y constante como estrategias de</li>
+            <li>continuidad a la atención del cliente.</li>
+            <li>Analizar, diagnosticar y atender los diferentes casos de servicio que se generen y le sean asignados.
+            </li>
+            <li>Realizar la creación y asignación de casos propios y al equipo de la mesa de ayuda.</li>
+            <li>Escalar de manera óptima los casos de servicios que requieran atención superior, asegurando la
+              satisfactoria atención del cliente.</li>
+            <li>Analizar oportunidades de mejora y nuevos negocios y escalar al área comercial.</li>
+            <li>Garantizar la mejor experiencia del cliente con las diferentes aplicaciones de la compañía.</li>
+            <li>Monitorear información en diferentes sistemas.</li>
+            <li>Análisis de información de bases de datos.</li>
+            <li>Realizar backups a las bases de datos.</li>
+            <li>Ejecutar el mantenimiento y mejoras del producto.</li>
+            <li>Participar en los procesos de adecuación de ambientes productivos o de desarrollo.</li>
+            <li>Participar en los procesos de ejecución de las liberaciones de las implementaciones solicitadas.</li>
+            <li>Participar en la elaboración de diseños, desarrollo de productos.</li>
+            <li>Realizar desarrollos requeridos para clientes, que no requieran más de 24 horas.</li>
+            <li>Documentar información de los desarrollos realizados.</li>
+            <li>Asegurar el óptimo funcionamiento de las TIC de la empresa.</li>
+            <li>Garantizar el óptimo funcionamiento infraestructura tecnológica.</li>
+            <li>Realizar inventarios de los equipos de cómputo que se tiene en la empresa.</li>
+            <li>Contactar al proveedor (es) de equipo de cómputo con que cuenta la empresa y gestionar las
+              necesidades de la empresa en temas de equipos del personal.</li>
+            <li>Realizar informe mensual del inventario de los equipos de cómputo relacionado a cada empleado
+            <li>para autorización de pagos de facturas de proveedores.</li>
+            <li>Generar informe mensual del seguimiento a los clientes y las oportunidades de negocio forjadas.</li>
+            <li>Realizar gestión comercial que los clientes contraten con la empresa, relacionadas con los servicios
+              que el cliente tiene.</li>
+            <li>Cumplir con cualquier actividad que dentro de la naturaleza de su cargo solicite su jefe inmediato.</li>
+            <li>Cumplir con las normas y procedimientos establecidos por la empresa.</li>
+          </ul>
+        </div>
+        <!--Experiencia 4-->
+        <div>
+          <h4 class="puesto-empresa">Aprendiz Tecnología e Informática. <span class="texto-naranja">Promedico</span>
+          </h4>
+          <p class="periodo-empresa">Jul 2017 - Ene 2018 | </p>
+          <ul class="lista-experiencia">
+            <li>Participación en la implantación de la app mutuales.</li>
+            <li>Participación en la implantación de la app PDFS.</li>
+            <li>Manejo de SAP en los módulos CMS, CML.</li>
+            <li>Participación en la liquidación de asociados.</li>
+            <li>Soporte técnico.</li>
+            <li>Levantamiento de información para desarrollo de software.</li>
+            <li>Participación en servicio al cliente.</li>
+            <li>Participación en desarrollo de scripts.</li>
+          </ul>
+        </div>
+      </div>
+      <!--Educación-->
+      <div class="educacion">
+        <h3 class="titulo-sesion-princial">Universitaria </h3>
+        <h4 class="titulo-institucion">UNIR universidad internacional de la Rioja </h4>
+        <h5 class="titulo-profesion">Ingeniería Informática </h5>
+        <p class="periodo-estudio">Actual | </p>
+      </div>
+      <!--Especialización tecnologíca-->
+      <div class="educacion">
+        <h3 class="titulo-sesion-princial">Especialización tecnologíca</h3>
+        <h4 class="titulo-institucion">Servicio nacional de aprendizaje SENA</h4>
+        <h5 class="titulo-profesion">Gestión y seguridad de bases de datos </h5>
+        <p class="periodo-estudio">2019 - 2019 | </p>
+      </div>
+      <!--tecnología-->
+      <div class="educacion">
+        <h3 class="titulo-sesion-princial">Tecnología</h3>
+        <h4 class="titulo-institucion">Servicio nacional de aprendizaje SENA</h4>
+        <h5 class="titulo-profesion">Análisis y desarrollo de sistemas de información</h5>
+        <p class="periodo-estudio">2016 - 2018 | </p>
+      </div>
+    </div>
+    <!--Información secundaria-->
+    <aside class="informacion-lateral">
+      <img src="./imagenes/diana1.jpeg" alt="Mi foto de perfil" width="300">
+      <!--Contactos-->
+      <div class="contactos">
+        <h3 class="titulo-lateral">Contactos</h3>
+        <div>
+          <span class="tipo-contacto">C:</span>
+          <a class="contacto-info" href="tel:+57 317 233 63 53">+57 317 233 63 53</a>
+        </div>
+        <div>
+          <span class="tipo-contacto">E:</span>
+          <a class="contacto-info" href="mailto:dimctes@gmail.com">dimctes@gmail.com</a>
+        </div>
+      </div>
+      <!--Habilidades tecnicas-->
+      <div class="habilidades-tecnicas">
+        <h3 class="titulo-lateral">Habilidades tecnicas</h3>
+        <ul class="lista-lateral">
+          <li><span class="elemento-lista-lateral">HTML5</span></li>
+          <li><span class="elemento-lista-lateral">CSS3</span></li>
+          <li><span class="elemento-lista-lateral">PHP</span></li>
+          <li><span class="elemento-lista-lateral">JavaScript</span></li>
+          <li><span class="elemento-lista-lateral">GITHUB</span></li>
+          <li><span class="elemento-lista-lateral">JIRA</span></li>
+          <li><span class="elemento-lista-lateral">Tortoise SVN</span></li>
+          <li><span class="elemento-lista-lateral">Figma</span></li>
+          <li><span class="elemento-lista-lateral">MobaXterm</span></li>
+        </ul>
+      </div>
+      <div class="soft-skills">
+        <h3 class="titulo-lateral">habilidades blandas</h3>
+        <ul class="lista-lateral">
+          <li><span class="elemento-lista-lateral">Scrum</span></li>
+          <li><span class="elemento-lista-lateral">Agile</span></li>
+          <li><span class="elemento-lista-lateral">Trello</span></li>
+          <li><span class="elemento-lista-lateral">Liderazgo</span></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</body>
+
+</html>
